@@ -15,9 +15,9 @@ import {
 } from "../dataDefinition/uriObjects";
 import { projectId } from "../library/config";
 import { currency, langs } from "../library/enums";
-import { allMonths } from "../library/globals";
 import { strings } from "../library/strings";
 import { IndexProps } from "../types/props";
+import { getMonths } from "../helpers/getMonths";
 
 const Index: React.FC<IndexProps> = ({ heading }) => {
   const lang = useContext(LangContext);
@@ -44,7 +44,7 @@ const Index: React.FC<IndexProps> = ({ heading }) => {
         dropdown={
           <RenderDropdown
             defaultValue={option}
-            options={allMonths(langs[lang])}
+            options={getMonths(1, 12, langs[lang])}
             onChange={setOption}
           />
         }
