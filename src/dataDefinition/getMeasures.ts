@@ -1,6 +1,5 @@
-const grossProfitMeasure = '/gdc/md/xms7ga4tf3g3nzucd8380o2bev8oeknp/obj/6877';
 
-export const getMeasures = () => {
+export const getMeasures = (uri: string, alias: string) => {
   return [
     {
       measure: {
@@ -8,11 +7,11 @@ export const getMeasures = () => {
         definition: {
           measureDefinition: {
             item: {
-              uri: grossProfitMeasure
+              uri
             }
           }
         },
-        alias: "$ Gross Profit"
+        alias
       }
     }
   ];
