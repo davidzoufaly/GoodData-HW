@@ -3,8 +3,8 @@ import { strings } from "../library/strings";
 type Months = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
 
 export const getMonths = (
-  fromInclude: Months,
-  toInclude: Months,
+  fromIncluded: Months,
+  toIncluded: Months,
   lang: string
 ) => {
   const months = [
@@ -24,7 +24,7 @@ export const getMonths = (
 
   let arr: string[] = [];
 
-  for (let i = fromInclude; i <= toInclude; i++) {
+  for (let i = fromIncluded; i <= toIncluded; i++) {
     arr.push(months[i - 1]);
   }
 
