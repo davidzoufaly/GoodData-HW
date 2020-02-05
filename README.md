@@ -7,9 +7,9 @@ Frontend Interview Examples
 Completed Homework for GoodData
 
 ### Dev/Tested environment
-OS: MacOS 10.14.6
-Node: 12.14.1
-Yarn: 1.X
+OS: MacOS 10.14.6  
+Node: 12.14.1  
+Yarn: 1.X  
 
 ### Initialization
 1. Make a [fork of this repository and clone it](https://help.github.com/en/articles/fork-a-repo).
