@@ -13,7 +13,7 @@ Yarn: 1.X
 
 ### Initialization
 1. Make a [fork of this repository and clone it](https://help.github.com/en/articles/fork-a-repo).
-2. Run `cd gooddata-js-interview`.
+2. Run `cd GoodData-HW`.
 3. Run `yarn install`.
 4. Run `yarn start`.
 5. Visit https://localhost:3000/account.html, and log in using your GoodData account credentials.
