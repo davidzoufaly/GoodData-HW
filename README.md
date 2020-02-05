@@ -4,7 +4,7 @@ Frontend Interview Examples
 ## GoodData Homework
 
 ### Introduction
-Finished Homework for Good Data
+Completed Homework for GoodData
 
 ### Dev/Tested environment
 OS: MacOS 10.14.6
