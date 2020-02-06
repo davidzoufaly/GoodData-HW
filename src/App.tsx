@@ -19,7 +19,7 @@ class App extends React.Component<{}, { lang: langs }> {
     return (
       <LangContext.Provider value={this.state.lang}>
         <div className="App">
-          <Index heading={strings.charts[this.state.lang]} />
+          <Index heading={strings.grossProfit[this.state.lang]} />
         </div>
       </LangContext.Provider>
     );
